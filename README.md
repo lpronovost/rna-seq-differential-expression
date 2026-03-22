@@ -42,7 +42,7 @@ BiocManager::install(c("limma", "edgeR", "goseq", "sva", "Biobase", "org.Mm.eg.d
 
 ## Usage
 
-Open `Quiz_4_Analysis.Rmd` in RStudio and knit to HTML. All data is loaded automatically from source — no additional setup is needed.
+Open `Course 6 Project.Rmd` in RStudio and knit to HTML. All data is loaded automatically from source — no additional setup is needed.
 
 ## Results
 
