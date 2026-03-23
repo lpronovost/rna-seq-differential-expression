@@ -46,7 +46,7 @@ Open `Course 6 Project.Rmd` in RStudio and knit to HTML. All data is loaded auto
 
 ## Results
 
-Differential expression analysis identified hundreds of genes at a 5% FDR threshold, consistent with independent benchmarking of this dataset using comparable methods. GO enrichment revealed biologically interpretable terms that were robust across both the unadjusted and lane-adjusted models.
+RNA-seq differential expression analysis identified 935 DE genes at a 5% FDR threshold using a voom + limma pipeline, reduced to 619 DE genes after adjusting for sequencing lane as a batch effect. GO enrichment with goseq identified terms consistent with known strain-specific biology, with extracellular space and extracellular region appearing robustly across both the unadjusted and lane-adjusted models.
 
 ## References
 
